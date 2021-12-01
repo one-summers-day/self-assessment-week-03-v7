@@ -1,0 +1,15 @@
+{
+  "name": "react-pond",
+  "version": "1.0.0",
+  "description": "Create a fish pond in React",
+  "author": "Hack Reactor <curriculum.team@hackreactor.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "babel src/ --out-dir compiled --presets=react --source-maps inline --watch & live-server"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-react": "^6.5.0",
+    "live-server": "^1.0.0"
+  }
+}
