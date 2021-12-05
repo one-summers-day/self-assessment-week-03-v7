@@ -1,14 +1,14 @@
 // Import and export statements are not currently supported in the Spectator Enviroment.
-// We have them here to illustrate the implicit import of the related code. 
-// Please leave these lines commented out. 
+// We have them here to illustrate the implicit import of the related code.
+// Please leave these lines commented out.
 // import FishTableRow from './FishTableRow.js';
 
-var FishTable = () => (
+var FishTable = (props) => (
   <table>
     <tbody>
-      <FishTableRow />
-      <FishTableRow />
-      <FishTableRow />
+      <FishTableRow fish = {(props.fishes)[0]}/>
+      <FishTableRow fish = {(props.fishes)[1]}/>
+      <FishTableRow fish = {(props.fishes)[2]}/>
     </tbody>
   </table>
 );
