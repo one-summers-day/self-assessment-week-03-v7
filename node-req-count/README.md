@@ -27,4 +27,4 @@ curl -X POST 127.0.0.1:8000/dogs
 ### Available Resources for this Prompt
 * Node.js Docs
 * MDN
-* [W3.org Status Code Docs](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) 
+* [W3.org Status Code Docs](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
